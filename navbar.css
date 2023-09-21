@@ -1,0 +1,52 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-transform: uppercase;
+    color: #882190;
+    transition: .5s;
+}
+.navlink{
+    background:#882190;
+    height: 58px;
+    width: 238px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.navlink:hover{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background: #F8F8F8;
+}
+
+.nav_brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav_menu{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    gap: 5rem;
+}
